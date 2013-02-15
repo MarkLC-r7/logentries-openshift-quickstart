@@ -8,15 +8,10 @@ Running on OpenShift
 
 Create a Logentries account at https://logentries.com/
 
-Create an application on Openshift if you havent already, you must enter app name and your stack.
+Create an application on Openshift if you havent already, you must enter app name and your stack.  Change directories into the resulting application directory.
 
-	rhc app create -a myappname -t mystack
-
-Add this upstream Logentries repo
-
-	cd myappname
-	git remote add upstream -m master git://github.com/openshift/logentries-openshift-quickstart.git
-	git pull -s recursive -X theirs upstream master
+        rhc app create myappname mystack --from-code https://github.com/openshift/logentries-openshift-quickstart
+        cd myappname
 
 Configuration
 -------------
