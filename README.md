@@ -15,7 +15,7 @@ Create an application on Openshift if you havent already, you must enter app nam
 Add this upstream Logentries repo
 
 	cd myappname
-	git remote add upstream -m master https://github.com/logentries/le_openshift.git
+	git remote add upstream -m master git://github.com/openshift/logentries-openshift-quickstart.git
 	git pull -s recursive -X theirs upstream master
 
 Configuration
