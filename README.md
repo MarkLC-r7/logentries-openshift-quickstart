@@ -6,7 +6,7 @@ This git repo provides a quick method to get your OpenShift logs streaming to Lo
 Running on OpenShift
 ----------------------------
 
-Create a Logentries account at https://logentries.com/
+Create a Logentries account at https://logentries.com/doc/openshift/
 
 Create an application on Openshift if you havent already, you must enter app name and your stack.  Change directories into the resulting application directory.
 
